@@ -1,5 +1,5 @@
 # QuizThemes
-Site web en html, css, js et json afin de générer des suites de questions.
+Site web en html, css, js afin de générer des suites de questions.
 
 Lancer le site :
   VsCode :
