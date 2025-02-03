@@ -1,0 +1,33 @@
+[
+    {
+      "question"       : "Quelle événement est considérer comme la principale cause du déclenchement de la première guerre mondiale",
+      "options"        : ["L'assassinat de François-Ferdinand", "L'invasion de la Pologne", "L'attaque de Pearl Harbor", "La bataille de Verdun"],
+      "reponseValide"  : "L'assassinat de François-Ferdinand",
+      "reponsesValides": ["L'assassinat de François-Ferdinand", "assassinat de François Ferdinand", "L'attentat de Sarajevo", "Attentat de Sarajevo"],
+      "explication"    : ""
+    },
+    {
+      "question"       : "Quand a lieu l'attentat de Sarajevo ?",
+      "options"        : ["28 juin 1914", "20 août 1914", "28 juin 1918", "8 mai 1918"],
+      "reponseValide"  : "28 juin 1914",
+      "reponsesValides": ["28 juin 1914", "le 28 juin 1914", "28/06/1914"],
+      "explication"    : ""
+    },
+    {
+      "question"       : "Qui sont les membres de la Triple-Entente ? (Pays 1 - Pays 2 - Pays 3)",
+      "options"        : ["Grande-Bretagne - France - Russie", "L'Allemagne - l'Autiche-Hongrie - l'Italie", "La France - l'Allemagne - l'Italie"],
+      "reponseValide"  : "Grande-Bretagne - France - Russie",
+      "reponsesValides": ["Grande-Bretagne - France - Russie", "Grande-Bretagne - Russie - France",
+                          "France - Grande-Bretagne - Russie", "France - Russie - Grande-Bretagne",
+                          "Russie - Grande-Bretagne - France", "Russie - France - Grande-Bretagne",
+                        
+                          "Royaume-Uni - France - Russie", "Royaume-Uni - Russie - France",
+                          "France - Royaume-Uni - Russie", "France - Russie - Royaume-Uni",
+                          "Russie - Royaume-Uni - France", "Russie - France - Royaume-Uni",
+                        
+                          "Angleterre - France - Russie", "Angleterre - Russie - France",
+                          "France - Angleterre - Russie", "France - Russie - Angleterre",
+                          "Russie - Angleterre - France", "Russie - France - Angleterre"],
+      "explication"    : ""
+    }
+]

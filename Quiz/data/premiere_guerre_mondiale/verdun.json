@@ -1,13 +1,13 @@
 [
     {
-      "question"       : "Quand a commencée la bataille de Verdun",
+      "question"       : "Quand a commencée la bataille de Verdun ?",
       "options"        : ["21 février 1916", "18 décembre 1916", "21 janvier 1917", "13 décembre 1917"],
       "reponseValide"  : "21 février 1916",
       "reponsesValides": ["21 février 1916", "le 21 février 1916", "21/02/1916"],
       "explication"    : ""
     },
     {
-        "question"       : "Quand pris fin la bataille de Verdun",
+        "question"       : "Quand pris fin la bataille de Verdun ?",
         "options"        : ["18 décembre 1916", "21 février 1916",  "11 janvier 1917", "20 mars 1917"],
         "reponseValide"  : "18 décembre 1916",
         "reponsesValides": ["18 décembre 1916", "le 18 décembre 1916", "18/12/1916"],

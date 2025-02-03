@@ -1,0 +1,36 @@
+[
+    {
+        "question"       : "en quelle année eu lieux le premier championnat du monde de Formule 1 ?",
+        "options"        : ["1950", "1955", "1948", "1951"],
+        "reponseValide"  : "1950",
+        "reponsesValides": ["1950"],
+        "explication"    : ""
+    },
+
+
+
+    {
+        "question"       : "Quelle est l'écurie la plus titrée en Formule 1 ?",
+        "options"        : ["Ferrari", "Mclaren", "Williams", "Mercedes", "Red bull"],
+        "reponseValide"  : "Ferrari",
+        "reponsesValides": ["Scuderia Ferrari", "Ferrari"],
+        "explication"    : ""
+    },
+
+
+
+    {
+        "question"       : "Qui fut le premier champion du monde de Formule 1 ?",
+        "options"        : ["Giuseppe Farina", "Juan Manuel Fangio", "Alberto Ascari", "Niki Lauda"],
+        "reponseValide"  : "Giuseppe Farina",
+        "reponsesValides": ["Giuseppe Farina", "Nino Farina", "Farina"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "Quelle est le pilote le plus titré avec Michael Schumacher",
+        "options"        : ["Lewis Hamilton", "Juan Manuel Fangio", "Alain Prost", "Sebastian Vettel", "Max Verstappen"],
+        "reponseValide"  : "Lewis Hamilton",
+        "reponsesValides": ["Lewis Hamilton", "Hamilton", "Lewis"],
+        "explication"    : ""
+    }
+]

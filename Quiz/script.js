@@ -3,18 +3,18 @@ const main = document.getElementById('main');
 // Thèmes et sous-thèmes
 const themes = 
 {
-    "Première Guerre Mondiale" : ["Verdun"],
+    "Première Guerre Mondiale" : ["Verdun", "Géopolitique"],
     "Seconde Guerre Mondiale"  : ["Pearl Harbor", "Débarquement de Normandie", "Bataille De Midway"],
-    "Formule 1"                : ["Champions du Monde", "Circuits"]
+    "Formule 1"                : ["Champions du Monde", "Circuits"],
+    "Paquebots"                : ["Olympic Titanic Britannic"]
 };
 
-let questions  = [];     // Stocke les questions du quiz en cours
-let idQuestion = 0;      // Id de la question actuelle
-let score      = 0;      // Score du joueur
-let isQCM      = true;   // Mode QCM par défaut
+let questions  = [];
+let idQuestion = 0;
+let score      = 0;
+let isQCM      = true;
 
 
-// Fonction pour enlever les accents, espaces, etc...
 function normaliserString(str) {
     return str
         .normalize("NFD")
@@ -215,9 +215,11 @@ function verifieReponse() {
         }
     } else {
         reponse = document.getElementById('text-answer').value.trim();
-        isCorrect = question.reponsesValides.some(reponseCorrect => 
-            normaliserReponse(reponse) === normaliserReponse(reponseCorrect)
-        );
+        const reponseNormalisee = normaliserReponse(reponse);
+        isCorrect = question.reponsesValides.some(reponseCorrect => {
+            const motsReponseCorrect = normaliserReponse(reponseCorrect).split(' ');
+            return motsReponseCorrect.some(mot => reponseNormalisee.includes(mot));
+        });
     }
     
     if (isCorrect) score++;

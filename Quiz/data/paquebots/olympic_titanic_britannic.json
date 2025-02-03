@@ -1,0 +1,71 @@
+[
+    {
+        "question"       : "A quelle compagnie appartiennent principalement les paquebots de la classe Olympic ? (Olympic, Titanic, Britannique)",
+        "options"        : ["La White Star Line", "La Cunard", "La Royal Navy"],
+        "reponseValide"  : "La White Star Line",
+        "reponsesValides": ["La White Star Line", "White Star Line"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "Qui est l'architecte des paquebots de la classe Olympic qui à également sombré dans le naufrage du Titanic ?",
+        "options"        : ["Thomas Andrew", "Edward Smith", "Alexender Montgomery Carlisle"],
+        "reponseValide"  : "Thomas Andrew",
+        "reponsesValides": ["Thomas Andrew"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "Quelle chantier navale a acceuilli la construction des paquebots de la classe Olympic ?",
+        "options"        : ["Harland and Wolff", "Les Chantiers de l'Atlantique", "Le Portsmouth Naval Shipyard"],
+        "reponseValide"  : "Harland and Wolff",
+        "reponsesValides": ["Harland and Wolff"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "Dans quelle ville se trouve le chantier navale d'Harland and Wolff",
+        "options"        : ["Belfast", "Southampton", "Portsmouth", "Saint-Nazaire"],
+        "reponseValide"  : "Belfast",
+        "reponsesValides": ["Belfast"],
+        "explication"    : ""
+    },
+    
+
+    
+    {
+        "question"       : "A quelle classe apartient le Titanic ?",
+        "options"        : ["La classe Olympic", "La classe Titanic", "La classe Britannic", "La classe Lusitania"],
+        "reponseValide"  : "La classe Olympic",
+        "reponsesValides": ["La classe Olympic", "classe Olympic", "Olympic"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "D'où part le voyage inaugurale du Titanic ?",
+        "options"        : ["Southampton", "Cherbourg", "Queenstown", "New York"],
+        "reponseValide"  : "Southampton",
+        "reponsesValides": ["De Southampton", "Southampton"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "Quand à lieu le départ du voyage inaugurale du Titanic ?",
+        "options"        : ["10 avril 1912", "14 avril 1912", "15 avril 1912", "17 avril 1912"],
+        "reponseValide"  : "10 avril 1912",
+        "reponsesValides": ["10 avril 1912", "le 10 avril 1912", "10/04/1912"],
+        "explication"    : ""
+    },
+    {
+        "question"       : "Qui est le capitaine du Titanic ?",
+        "options"        : ["Edward Smith", "Thomas Andrew", "Jack Dawson", "17 avril 1912"],
+        "reponseValide"  : "Edward Smith",
+        "reponsesValides": ["Le capitaine Edward Smith", "Capitaine Edward Smith", "Edward Smith", "Le capitaine Smith", "Capitaine Smith"],
+        "explication"    : ""
+    },
+
+
+
+    {
+        "question"       : "Avant d'être renommé Britannic, quelle était le premier nom évoquer pour ce Paquebot ?",
+        "options"        : ["Le Gigantic", "L'Olympic", "Le Titanic 2", "Le Queen Mary"],
+        "reponseValide"  : "Le Gigantic",
+        "reponsesValides": ["Le Gigantic", "Gigantic"],
+        "explication"    : ""
+    }
+]
