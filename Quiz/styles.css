@@ -1,12 +1,26 @@
 :root {
-    --Marron: #6A645A;
-    --Beige: #f5efe6;
+    --MarronFoncé: #554f47;
+    --Marron:      #6A645A;
+    --MarronClaire:#a29e96;
+    --Gris:        #D4D3DC;
+    --Blanc:       #e5e7e6;
+    --Beige:       #f5efe6;
+    --BeigeClaire: #f6f3ef;
+    --Rouge:       #A7001E;
+    --Vert:        #7AA95C;
+}
+
+html{
+    height: 100%;
 }
 
 body {
     background-color: var(--Beige);
     font-family: Arial, sans-serif;
     color: var(--Marron);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -20,7 +34,8 @@ header {
 }
 
 main {
-    padding: 2rem;
+    flex: 1;
+    padding: 1rem;
 }
 
 #themes {
@@ -31,10 +46,12 @@ main {
 }
 
 .theme-section {
-    flex: 1 1 300px; /* Croissance flexible, rétrécissement flexible, base de 300px */
-    max-width: calc(33.333% - 20px); /* Pour 3 colonnes maximum */
+    flex: 1 1 300px;
+    max-width: calc(33.333% - 20px);
     box-sizing: border-box;
     border: 4px solid var(--Marron);
+    border-radius: 15px;
+    background-color: var(--BeigeClaire);
     padding: 15px;
     margin-bottom: 20px;
     text-align: center;
@@ -88,12 +105,13 @@ button {
 }
 
 button:hover {
-    background-color: #554f47;
+    background-color: var(--MarronFoncé);
 }
 
 .quiz-type-selecteur {
     text-align: center;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .toggle-container {
@@ -127,7 +145,7 @@ button:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: var(--MarronClaire);
     transition: .4s;
 }
 
@@ -138,7 +156,7 @@ button:hover {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: var(--Marron);
     transition: .4s;
 }
 
@@ -147,6 +165,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
+    background-color: var(--MarronClaire);
     transform: translateX(26px);
 }
 
@@ -159,23 +178,23 @@ input:checked + .slider:before {
 }
 
 .reponse-correcte {
-    color: green;
+    color: var(--Vert);
     font-weight: bold;
 }
 
 .reponse-incorrecte {
-    color: red;
+    color: var(--Rouge);
     font-weight: bold;
 }
 
 @media (max-width: 1200px) {
     .theme-section {
-        max-width: calc(50% - 20px); /* 2 colonnes sur écrans moyens */
+        max-width: calc(50% - 20px);
     }
 }
 @media (max-width: 768px) {
     .theme-section {
-        flex-basis: 100%; /* 1 colonne sur petits écrans */
+        flex-basis: 100%;
         max-width: 100%;
     }
 }
@@ -184,10 +203,5 @@ footer {
     background-color: var(--Marron);
     color: var(--Beige);
     text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+    padding: 1rem;
 }
