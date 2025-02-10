@@ -4,14 +4,15 @@ const main = document.getElementById('main');
 const themes = 
 {
     // Histoire
-        // Guerre
+        // XIXéme
+    "Premier Empire"           : ["Napoléon Ier", "Soldats Napoléoniens"],
+        // XXéme
     "Première Guerre Mondiale" : ["Verdun", "Géopolitique"],
     "Seconde Guerre Mondiale"  : ["Pearl Harbor", "Débarquement de Normandie", "Bataille De Midway", "Géopolitique"],
 
     // Transports
         //Bateaux
     "Paquebots"                : ["Classe Olympic"],
-    "Porte Avions"             : [],
 
     // Sport
         // Course
