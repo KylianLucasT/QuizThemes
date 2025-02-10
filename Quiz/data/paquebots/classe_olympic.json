@@ -1,0 +1,80 @@
+[
+    {
+        "question"       : "À quelle compagnie appartiennent les paquebots de la classe Olympic ? (Olympic, Titanic, Britannique)",
+        "options"        : ["La White Star Line", "La Cunard", "La Royal Navy"],
+        "reponseValide"  : "La White Star Line",
+        "reponsesValides": ["White Star Line"],
+        "explication"    : "Les paquebots de la classe Olympic (Olympic, Titanic et Britannic) appartiennent principalement à la White Star Line. Cette compagnie de navigation maritime britannique était l'une des plus importantes de son époque et a fait construire ces trois navires jumeaux entre 1908 et 1914.",
+        "images"         : []
+    },
+    {
+        "question"       : "Comment se nomme l'architecte des paquebots de la classe Olympic, ayant péri dans le naufrage du Titanic ?",
+        "options"        : ["Thomas Andrew", "Edward Smith", "Alexender Montgomery Carlisle"],
+        "reponseValide"  : "Thomas Andrew",
+        "reponsesValides": ["Thomas A", "Andrew"],
+        "explication"    : "Thomas Andrews était l'architecte principal des paquebots de la classe Olympic, dont le Titanic. Il a supervisé la construction de ces trois grands navires pour la White Star Line à partir de 1908. Andrews a embarqué sur le Titanic lors de son voyage inaugural le 10 avril 1912 pour noter les éventuels défauts restants. Malheureusement, il a péri dans le naufrage du Titanic survenu le 14 avril 1912.",
+        "images"         : ["data/paquebots/images/thomas_andrew.jpg"]
+    },
+    {
+        "question"       : "Quelle chantier navale a acceuilli la construction des paquebots de la classe Olympic ?",
+        "options"        : ["Harland and Wolff", "Les Chantiers de l'Atlantique", "Le Portsmouth Naval Shipyard"],
+        "reponseValide"  : "Harland and Wolff",
+        "reponsesValides": ["Harland and Wolff"],
+        "explication"    : "Les paquebots de la classe Olympic ont été construits par les chantiers navals Harland & Wolff à Belfast, en Irlande du Nord. Ces chantiers ont été spécifiquement agrandis pour accueillir la construction de ces navires gigantesques, notamment avec la construction d'un immense portique, le plus grand échafaudage du monde à l'époque, mesurant 256 m de long, 28,50 m de large et 52,60 m de haut. La construction de l'Olympic a débuté le 16 décembre 1908 avec la pose de sa quille, suivie de celle du Titanic en mars 1909.",
+        "images"         : []
+    },
+    {
+        "question"       : "Dans quelle ville est situé le chantier naval d'Harland and Wolff ?",
+        "options"        : ["Belfast", "Southampton", "Portsmouth", "Saint-Nazaire"],
+        "reponseValide"  : "Belfast",
+        "reponsesValides": ["Belfast"],
+        "explication"    : "Le chantier naval d'Harland and Wolff est situé à Belfast, en Irlande du Nord. Fondé en 1861, ce chantier est un élément emblématique du patrimoine industriel de la ville, célèbre pour avoir construit des navires célèbres comme le Titanic.",
+        "images"         : []
+    },
+    
+
+    
+    {
+        "question"       : "À quelle classe de navires appartient le Titanic ?",
+        "options"        : ["La classe Olympic", "La classe Titanic", "La classe Britannic", "La classe Lusitania"],
+        "reponseValide"  : "La classe Olympic",
+        "reponsesValides": ["classe Olympic", "Olympic"],
+        "explication"    : "Le Titanic appartient à la classe Olympic, une classe de paquebots transatlantiques britanniques mis en service par la White Star Line entre 1911 et 1915. Cette classe comprend trois navires : l'Olympic (qui donne son nom à la classe), le Titanic, et le Britannic (initialement prévu sous le nom de Gigantic). Ces navires étaient considérés comme les plus grands paquebots de leur époque.",
+        "images"         : []
+    },
+    {
+        "question"       : "D'où part le voyage inaugural du Titanic ?",
+        "options"        : ["Southampton", "Cherbourg", "Queenstown", "New York"],
+        "reponseValide"  : "Southampton",
+        "reponsesValides": ["Southampton"],
+        "explication"    : "Le voyage inaugural du Titanic a débuté de Southampton en Angleterre le 10 avril 1912 à 12h15. Le navire a ensuite fait deux escales : d'abord à Cherbourg en France à 18h35, puis à Queenstown (aujourd'hui Cobh) en Irlande le 11 avril à 11h30, avant de prendre la direction de New York.",
+        "images"         : []
+    },
+    {
+        "question"       : "Quand a lieu le départ du voyage inaugural du Titanic ?",
+        "options"        : ["10 avril 1912", "14 avril 1912", "15 avril 1912", "17 avril 1912"],
+        "reponseValide"  : "10 avril 1912",
+        "reponsesValides": ["10 avril 1912", "10/04/1912"],
+        "explication"    : "Le voyage inaugural du Titanic a débuté le 10 avril 1912 à 12h15 de Southampton, en Angleterre. Après son départ de Southampton, le paquebot a fait deux escales : d'abord à Cherbourg en France le même jour à 18h30, puis à Queenstown (aujourd'hui Cobh) en Irlande le 11 avril à 11h30, avant de prendre la direction de New York.",
+        "images"         : []
+    },
+    {
+        "question"       : "Comment se nomme le capitaine du Titanic ?",
+        "options"        : ["Edward Smith", "Thomas Andrew", "Jack Dawson", "17 avril 1912"],
+        "reponseValide"  : "Edward Smith",
+        "reponsesValides": ["Capitaine Smith", "Edward S", "Smith"],
+        "explication"    : "Le capitaine du Titanic se nommait Edward John Smith, surnommé E.J. Smith. Né le 27 janvier 1850 à Hanley au Royaume-Uni, il était un marin britannique expérimenté travaillant pour la White Star Line depuis 1886. Il est mort lors du naufrage du Titanic le 15 avril 1912 à l'âge de 62 ans dans l'océan Atlantique.",
+        "images"         : ["data/paquebots/images/edward_smith.jpg"]
+    },
+
+
+
+    {
+        "question"       : "Avant d'être renommé Britannic, quelle était le premier nom évoquer pour ce Paquebot ?",
+        "options"        : ["Le Gigantic", "L'Olympic", "Le Titanic 2", "Le Queen Mary"],
+        "reponseValide"  : "Le Gigantic",
+        "reponsesValides": ["Gigantic"],
+        "explication"    : "Le premier nom envisagé pour le paquebot qui deviendra le Britannic était Gigantic. Ce navire, troisième de la classe Olympic après l'Olympic et le Titanic, devait initialement porter ce nom grandiose. Cependant, suite au naufrage tragique du Titanic en 1912, les propriétaires ont décidé de le renommer Britannic avant son lancement en 1914.",
+        "images"         : []
+    }
+]

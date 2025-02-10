@@ -3,10 +3,19 @@ const main = document.getElementById('main');
 // Thèmes et sous-thèmes
 const themes = 
 {
+    // Histoire
+        // Guerre
     "Première Guerre Mondiale" : ["Verdun", "Géopolitique"],
-    "Seconde Guerre Mondiale"  : ["Pearl Harbor", "Débarquement de Normandie", "Bataille De Midway"],
-    "Formule 1"                : ["Champions du Monde", "Circuits"],
-    "Paquebots"                : ["Olympic Titanic Britannic"]
+    "Seconde Guerre Mondiale"  : ["Pearl Harbor", "Débarquement de Normandie", "Bataille De Midway", "Géopolitique"],
+
+    // Transports
+        //Bateaux
+    "Paquebots"                : ["Classe Olympic"],
+    "Porte Avions"             : [],
+
+    // Sport
+        // Course
+    "Formule 1"                : ["Champions du Monde"]
 };
 
 let questions  = [];
@@ -174,20 +183,29 @@ function afficheQuestionSuivante() {
                 <label>
                     <input type="radio" name="question" value="${option}">
                     ${option}
+                    <br>
                 </label>`).join('');
         } else {
-            questionHTML += `<textarea id="text-answer" rows="4" cols="50"></textarea>`;
+            questionHTML += `<textarea id="text-reponse" rows="2" cols="40"></textarea>`;
         }
         
         questionHTML += `
             <br>
-            <button id="submit-answer">Valider</button>
-            <button id="quit-quiz">Quitter</button>
+            <button id="valider-reponse">Valider</button>
+            <button id="quitte-quiz">Quitter</button>
             </div>`;
         
         main.innerHTML = questionHTML;
-        document.getElementById('submit-answer').addEventListener('click', verifieReponse);
-        document.getElementById('quit-quiz').addEventListener('click', quitterQuiz);
+        document.getElementById('valider-reponse').addEventListener('click', verifieReponse);
+        document.getElementById('quitte-quiz').addEventListener('click', quitterQuiz);
+        if (!isQCM) {
+            document.getElementById('text-reponse').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault(); // Empêche le retour à la ligne
+                    verifieReponse();
+                }
+            });
+        }
     } else {
         pageResultat();
     }
@@ -214,7 +232,7 @@ function verifieReponse() {
             reponse = "Aucune réponse sélectionnée";
         }
     } else {
-        reponse = document.getElementById('text-answer').value.trim();
+        reponse = document.getElementById('text-reponse').value.trim();
         const reponseNormalisee = normaliserReponse(reponse);
         isCorrect = question.reponsesValides.some(reponseCorrect => {
             const motsReponseCorrect = normaliserReponse(reponseCorrect).split(' ');
@@ -224,24 +242,35 @@ function verifieReponse() {
     
     if (isCorrect) score++;
 
+    let imagesExplication = '';
+    if (question.images && question.images.length > 0) {
+        imagesExplication = question.images.map(imageSrc => 
+            `<img src="${imageSrc}" alt="Image explication" style="width: 20%; aspect-ratio: 1/1; object-fit: cover; margin-top: 10px;">
+`
+        ).join('');
+    }
+
     main.innerHTML = 
         `<div class="quiz-container">
             <h3 class="${isCorrect ? 'reponse-correcte' : 'reponse-incorrecte'}">
                 ${isCorrect ? 'Réponse correcte' : 'Réponse incorrecte'}
             </h3>
             <p>Votre réponse : ${reponse}</p>
-            <p>La bonne réponse est : ${isQCM ? question.reponseValide : question.reponsesValides[0]}</p>
+            <p>La bonne réponse est : ${question.reponseValide}</p>
             <p>${question.explication || "Pas d'explication disponible."}</p>
-            <button id="next-question">Question suivante</button>
-            <button id="quit-quiz">Quitter</button>
+            ${imagesExplication}
+            <br>
+            <button id="question-suivante">Question suivante</button>
+            <button id="quitte-quiz">Quitter</button>
         </div>`;
 
-    document.getElementById('next-question').addEventListener('click', () => {
-        idQuestion++;
+    idQuestion++;
+
+    document.getElementById('question-suivante').addEventListener('click', () => {
         afficheQuestionSuivante();
     });
 
-    document.getElementById('quit-quiz').addEventListener('click', quitterQuiz);
+    document.getElementById('quitte-quiz').addEventListener('click', quitterQuiz);
 }
 
 

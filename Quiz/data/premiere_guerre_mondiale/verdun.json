@@ -1,16 +1,18 @@
 [
     {
-      "question"       : "Quand a commencée la bataille de Verdun ?",
+      "question"       : "Quand a commencé la bataille de Verdun ?",
       "options"        : ["21 février 1916", "18 décembre 1916", "21 janvier 1917", "13 décembre 1917"],
       "reponseValide"  : "21 février 1916",
       "reponsesValides": ["21 février 1916", "le 21 février 1916", "21/02/1916"],
-      "explication"    : ""
+      "explication"    : "La bataille de Verdun a commencé le 21 février 1916 à 7h15 du matin. Ce jour-là, l'armée allemande a déclenché un déluge de feu sur les forts et les tranchées françaises, marquant le début d'une bataille qui allait durer 300 jours et 300 nuits. Cette offensive, baptisée opération 'Gericht' par les Allemands, visait à percer les lignes françaises dans le secteur de Verdun.",
+      "images"         : []
     },
     {
-        "question"       : "Quand pris fin la bataille de Verdun ?",
+        "question"       : "Quand prit fin la bataille de Verdun ?",
         "options"        : ["18 décembre 1916", "21 février 1916",  "11 janvier 1917", "20 mars 1917"],
         "reponseValide"  : "18 décembre 1916",
         "reponsesValides": ["18 décembre 1916", "le 18 décembre 1916", "18/12/1916"],
-        "explication"    : ""
+        "explication"    : "La bataille de Verdun a pris fin le 18 décembre 1916. Cette date marque la conclusion de dix mois de combats intenses qui avaient débuté le 21 février 1916. La bataille s'est terminée par un dernier assaut français du 15 au 18 décembre, permettant aux forces françaises de récupérer le terrain perdu depuis le début de l'offensive allemande. À l'issue de cette longue et sanglante bataille, la situation territoriale était revenue à son état initial, sans gain significatif pour aucun des deux camps.",
+        "images"         : []
     }
 ]

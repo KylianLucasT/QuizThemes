@@ -1,0 +1,29 @@
+[
+    {
+        "question"       : "Combien de portes avions compter les américains pendant la bataille de Midway ?",
+        "options"        : ["3", "1", "2", "4"],
+        "reponseValide"  : "3",
+        "reponsesValides": ["3", "Trois"],
+        "explication"    : "Les États-Unis disposaient de trois porte-avions pendant la bataille de Midway, qui s'est déroulée du 4 au 7 juin 1942. Ces porte-avions étaient : L'USS Hornet (CV-8), L'USS Enterprise (CV-6) et L'USS Yorktown (CV-5). Il est important de noter que l'USS Yorktown a été gravement endommagé pendant la bataille et a finalement coulé le 7 juin 1942, après avoir été torpillé par un sous-marin japonais. Malgré la perte de ce porte-avions, la bataille de Midway s'est soldée par une victoire décisive pour les États-Unis, qui ont réussi à couler quatre porte-avions japonais tout en ne perdant qu'un seul des leurs.",
+        "images"         : []
+    },
+
+
+
+    {
+        "question"       : "Combien de portes avions compter les japonais pendant la bataille de Midway ?",
+        "options"        : ["4", "1", "2", "3"],
+        "reponseValide"  : "4",
+        "reponsesValides": ["4", "Quatre"],
+        "explication"    : "Lors de la bataille de Midway, qui s'est déroulée du 4 au 7 juin 1942, les Japonais disposaient de quatre porte-avions principaux pour l'attaque sur Midway. Ces porte-avions étaient : Le Kaga, Le Hiryu, L'Akagi et Le Soryu. Il est important de noter que la flotte japonaise complète pour l'opération comprenait en réalité un total de huit porte-avions. Cependant, seuls les quatre mentionnés ci-dessus formaient la première force de frappe dirigée par l'amiral Nagumo, qui était au cœur de la bataille principale.",
+        "images"         : []
+    },
+    {
+        "question"       : "Combien de portes avions japonais on était coulées pendant la bataille de Midway ?",
+        "options"        : ["4", "1", "2", "3"],
+        "reponseValide"  : "4",
+        "reponsesValides": ["4", "Quatre"],
+        "explication"    : "endant la bataille de Midway, qui s'est déroulée du 4 au 7 juin 1942, quatre porte-avions japonais ont été coulés. Ces porte-avions étaient : Le Kaga, Le Hiryu, L'Akagi et Le Soryu. Ces quatre porte-avions principaux de la flotte japonaise ont été détruits par les aviateurs américains au cours de la bataille. Cette perte massive a marqué un tournant décisif dans la guerre du Pacifique, infligeant un coup sévère à la puissance navale japonaise.",
+        "images"         : []
+    }
+]

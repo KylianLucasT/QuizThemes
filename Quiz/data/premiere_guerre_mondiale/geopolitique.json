@@ -1,33 +1,54 @@
 [
     {
-      "question"       : "Quelle événement est considérer comme la principale cause du déclenchement de la première guerre mondiale",
+      "question"       : "Quel événement est considéré comme la principale cause du déclenchement de la Première Guerre mondiale ?",
       "options"        : ["L'assassinat de François-Ferdinand", "L'invasion de la Pologne", "L'attaque de Pearl Harbor", "La bataille de Verdun"],
       "reponseValide"  : "L'assassinat de François-Ferdinand",
-      "reponsesValides": ["L'assassinat de François-Ferdinand", "assassinat de François Ferdinand", "L'attentat de Sarajevo", "Attentat de Sarajevo"],
-      "explication"    : ""
+      "reponsesValides": ["Assassinat de François-Ferdinand", "Attentat de Sarajevo"],
+      "explication"    : "L'événement considéré comme la principale cause immédiate du déclenchement de la Première Guerre mondiale est l'assassinat de l'archiduc François-Ferdinand d'Autriche et de son épouse à Sarajevo le 28 juin 1914. Cet attentat, perpétré par Gavrilo Princip, un nationaliste serbe de Bosnie, a servi de catalyseur pour déclencher une série de réactions diplomatiques et militaires entre les grandes puissances européennes, conduisant rapidement à l'éclatement du conflit.",
+      "images"         : []
     },
     {
       "question"       : "Quand a lieu l'attentat de Sarajevo ?",
       "options"        : ["28 juin 1914", "20 août 1914", "28 juin 1918", "8 mai 1918"],
       "reponseValide"  : "28 juin 1914",
-      "reponsesValides": ["28 juin 1914", "le 28 juin 1914", "28/06/1914"],
-      "explication"    : ""
+      "reponsesValides": ["28 juin 1914", "28/06/1914"],
+      "explication"    : "L'attentat de Sarajevo a eu lieu le 28 juin 1914. Ce jour-là, l'archiduc François-Ferdinand d'Autriche, héritier du trône austro-hongrois, et son épouse Sophie Chotek ont été assassinés par Gavrilo Princip, un nationaliste serbe de Bosnie, lors de leur visite officielle à Sarajevo, capitale de la Bosnie-Herzégovine.",
+      "images"         : []
     },
     {
-      "question"       : "Qui sont les membres de la Triple-Entente ? (Pays 1 - Pays 2 - Pays 3)",
-      "options"        : ["Grande-Bretagne - France - Russie", "L'Allemagne - l'Autiche-Hongrie - l'Italie", "La France - l'Allemagne - l'Italie"],
-      "reponseValide"  : "Grande-Bretagne - France - Russie",
-      "reponsesValides": ["Grande-Bretagne - France - Russie", "Grande-Bretagne - Russie - France",
-                          "France - Grande-Bretagne - Russie", "France - Russie - Grande-Bretagne",
-                          "Russie - Grande-Bretagne - France", "Russie - France - Grande-Bretagne",
-                        
-                          "Royaume-Uni - France - Russie", "Royaume-Uni - Russie - France",
-                          "France - Royaume-Uni - Russie", "France - Russie - Royaume-Uni",
-                          "Russie - Royaume-Uni - France", "Russie - France - Royaume-Uni",
-                        
-                          "Angleterre - France - Russie", "Angleterre - Russie - France",
-                          "France - Angleterre - Russie", "France - Russie - Angleterre",
-                          "Russie - Angleterre - France", "Russie - France - Angleterre"],
-      "explication"    : ""
+      "question"       : "Qui a perpétré l'attentat de Sarajevo le 28 juin 1914 ?",
+      "options"        : ["Gavrilo Princip", "François-Ferdinand", "Dragutin Dimitrijević", "Muhamed Mehmedbašić"],
+      "reponseValide"  : "Gavrilo Princip",
+      "reponsesValides": ["Gavrilo P", "Princip"],
+      "explication"    : "L'attentat de Sarajevo a été perpétré par Gavrilo Princip, un jeune nationaliste serbe de Bosnie âgé de 19 ans. Il a assassiné l'archiduc François-Ferdinand, héritier du trône austro-hongrois, et son épouse Sophie Chotek lors de leur visite officielle à Sarajevo. Princip était membre de l'organisation nationaliste Jeune Bosnie et a agi avec des complices dans le cadre d'un complot visant à frapper la monarchie austro-hongroise.",
+      "images"         : []
+    },
+
+
+
+
+    {
+      "question"       : "Quelle alliance militaire s'est formée entre la France, le Royaume-Uni et la Russie pendant la Première Guerre mondiale ?",
+      "options"        : ["La Triple-Entente", "Le Pacte de Varsovie", "La Triple-Alliance", "L'OTAN"],
+      "reponseValide"  : "La Triple-Entente",
+      "reponsesValides": ["Triple-Entente"],
+      "explication"    : "La Triple-Entente est l'alliance militaire qui s'est formée entre la France, le Royaume-Uni et la Russie avant et pendant la Première Guerre mondiale. Cette alliance s'est constituée progressivement entre la fin du XIXe siècle et le début du XXe siècle pour contrebalancer la Triple-Alliance formée par l'Allemagne, l'Autriche-Hongrie et l'Italie",
+      "images"         : []
+    },
+    {
+      "question"       : "Quelle alliance militaire s'est formée entre l'Allemagne, l'Autriche-Hongrie et l'Italie pendant la Première Guerre mondiale ?",
+      "options"        : ["La Triple-Alliance", "La Triple-Entente", "L'Alliance des Empires centraux", "Le Pacte de Berlin"],
+      "reponseValide"  : "La Triple-Alliance",
+      "reponsesValides": ["Triple-Alliance"],
+      "explication"    : "L'alliance militaire qui s'est formée entre l'Allemagne, l'Autriche-Hongrie et l'Italie avant et au début de la Première Guerre mondiale était la Triple-Alliance. Cette alliance a été constituée en 1882 dans le but d'isoler la France. Cependant, il est important de noter que l'Italie a quitté cette alliance en 1915 pour rejoindre le camp de l'Entente.",
+      "images"         : []
+    },
+    {
+      "question"       : "Quand l'Italie quitte-t-elle la Triple-Alliance ?",
+      "options"        : ["3 mai 1915", "14 septembre 1914", "26 avril 1915", "23 mai 1915"],
+      "reponseValide"  : "3 mai 1915",
+      "reponsesValides": ["3 mai 1915", "3/05/1914"],
+      "explication"    : "L'alliance militaire qui s'est formée entre l'Allemagne, l'Autriche-Hongrie et l'Italie avant et au début de la Première Guerre mondiale était la Triple-Alliance. Cette alliance a été constituée en 1882 dans le but d'isoler la France. Cependant, il est important de noter que l'Italie a quitté cette alliance en 1915 pour rejoindre le camp de l'Entente.",
+      "images"         : []
     }
 ]

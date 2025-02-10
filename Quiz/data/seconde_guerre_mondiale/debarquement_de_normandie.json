@@ -1,0 +1,10 @@
+[
+    {
+      "question"       : "Quand eu lieu le débarquement de Normandie ?",
+      "options"        : ["6 juin 1944", "4 juin 1944", "14 juilliet 1944", "8 mai 1944"],
+      "reponseValide"  : "6 juin 1944",
+      "reponsesValides": ["6 juin 1944", "le 6 juin 1944", "6/06/1944"],
+      "explication"    : "Le débarquement de Normandie a eu lieu le 6 juin 1944. Cette date marque le début de l'opération Overlord, qui visait à créer une tête de pont alliée dans le Nord-Ouest de l'Europe et à ouvrir un nouveau front à l'ouest. Le débarquement a commencé tôt le matin, avec des bombardements aériens et navals préparatoires, suivis de l'assaut amphibie sur les plages normandes.",
+      "images"         : []
+    }
+]

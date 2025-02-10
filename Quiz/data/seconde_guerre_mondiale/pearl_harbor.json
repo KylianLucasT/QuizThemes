@@ -1,0 +1,22 @@
+[
+    {
+        "question"       : "Quand a lieu l'attaque de Pearl Harbor ?",
+        "options"        : ["7 décembre 1941", "4 juin 1941", "6 aout 1941", "9 aout 1941"],
+        "reponseValide"  : "7 décembre 1941",
+        "reponsesValides": ["7 décembre 1941", "7/12/1941"],
+        "explication"    : "L'attaque de Pearl Harbor a eu lieu le 7 décembre 1941. Plus précisément, l'attaque a commencé à 7h55 ce matin-là, lorsque les forces japonaises ont lancé une attaque surprise sur la base navale américaine de Pearl Harbor, située sur l'île d'Oahu dans l'archipel d'Hawaï. La première vague d'avions japonais a survolé la base à 7h40, et les premières bombes ont été larguées à 7h53. L'attaque s'est déroulée en deux vagues successives et s'est terminée vers 9h45.",
+        "images"         : []
+    },
+
+
+    
+    {
+        "question"       : "Quelle est le plus gros navire américain coulé pendant l'attaque de Pearl Harbor ?",
+        "options"        : ["USS Arizona (BB-39)", "USS Enterprise (CV-6)", "USS Nevada (BB-36)", "USS Oklahoma (BB-37)"],
+        "reponseValide"  : "USS Arizona",
+        "reponsesValides": ["Arizona", "BB-39"],
+        "explication"    : "Le plus gros navire américain coulé pendant l'attaque de Pearl Harbor était l'USS Arizona (BB-39). Ce cuirassé de classe Pennsylvania a été détruit le 7 décembre 1941 lors de l'attaque surprise japonaise. L'USS Arizona a subi une explosion catastrophique de ses soutes à munitions, provoquant son naufrage rapide et la mort de 1 177 membres d'équipage. L'épave du navire repose toujours au fond de Pearl Harbor et sert de mémorial aux victimes de l'attaque.",
+        "images"         : ["data/seconde_guerre_mondiale/images/uss_arizona.jpg",
+                            "data/seconde_guerre_mondiale/images/uss_arizona_detruit.jpg"]
+    }
+]

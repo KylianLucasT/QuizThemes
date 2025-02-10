@@ -1,0 +1,53 @@
+[
+    {
+        "question"       : "Quelle événement marque le début de la Seconde Guerre Mondiale ?",
+        "options"        : ["L'invasion de la Pologne par l'Allemagne nazie", "L'invasion de la Tchécoslovaquie par l'Allemagne", "L'attaque de Pearl Harbor par les japonais", "La signature du pacte germano-soviétique"],
+        "reponseValide"  : "L'invasion de la Pologne par l'Allemagne nazie",
+        "reponsesValides": ["invasion de la Pologne"],
+        "explication"    : "L'événement qui marque le début officiel de la Seconde Guerre mondiale est l'invasion de la Pologne par l'Allemagne nazie le 1er septembre 1939. Cette action a provoqué la déclaration de guerre de la France et du Royaume-Uni à l'Allemagne le 3 septembre 1939, marquant ainsi le début du conflit à l'échelle européenne.",
+        "images"         : []
+    },
+    {
+        "question"       : "Quel pays a rejoint les Alliés après l'attaque de Pearl Harbor en décembre 1941 ?",
+        "options"        : ["Les États-Unis", "L'Union soviétique", "La Chine", "Le Canada"],
+        "reponseValide"  : "Les États-Unis",
+        "reponsesValides": ["États-Unis", "U.S.A."],
+        "explication"    : "Suite à l'attaque surprise japonaise sur Pearl Harbor le 7 décembre 1941, les États-Unis sont officiellement entrés en guerre aux côtés des Alliés.",
+        "images"         : []
+    },
+    {
+        "question"       : "Quel pays est passé du camp de l'Axe à celui des Alliés en 1943 ?",
+        "options"        : ["L'Italie", "La Roumanie", "La Hongrie", "La Finlande"],
+        "reponseValide"  : "L'Italie",
+        "reponsesValides": ["Italie"],
+        "explication"    : "Après la destitution de Mussolini en juillet 1943 et l'armistice de Cassibile en septembre 1943, l'Italie a changé de camp pour rejoindre les Alliés.",
+        "images"         : []
+    },
+
+
+
+    {
+        "question"       : "Quelle alliance militaire s'est formée entre l'Allemagne, l'Italie et le Japon pendant la Seconde Guerre mondiale ?",
+        "options"        : ["Le Pacte tripartite", "Le Pacte de Varsovie", "L'OTAN", "La Société des Nations"],
+        "reponseValide"  : "Le Pacte tripartite",
+        "reponsesValides": ["tripartite"],
+        "explication"    : "Le Pacte tripartite, signé le 27 septembre 1940, a formalisé l'alliance militaire entre l'Allemagne nazie, l'Italie fasciste et l'Empire du Japon, formant l'axe Rome-Berlin-Tokyo.",
+        "images"         : []
+    },
+    {
+        "question"       : "Quand fut signé le Pacte tripartite ?",
+        "options"        : ["27 septembre 1940", "22 mai 1939", "10 juin 1940", "1er novembre 1936"],
+        "reponseValide"  : "27 septembre 1940",
+        "reponsesValides": ["27 septembre 1940", "27/09/1940"],
+        "explication"    : "Le Pacte tripartite, qui a formé l'alliance entre l'Allemagne nazie, l'Italie fasciste et l'Empire du Japon, a été signé le 27 septembre 1940 à Berlin. Ce pacte a officiellement établi l'axe Rome-Berlin-Tokyo et marqué la formalisation de leur alliance militaire pendant la Seconde Guerre mondiale.",
+        "images"         : []
+    },
+    {
+        "question"       : "Où fut signé le Pacte tripartite ?",
+        "options"        : ["Berlin", "Rome", "Tokyo", "Vienne"],
+        "reponseValide"  : "Berlin",
+        "reponsesValides": ["Berlin"],
+        "explication"    : "Le Pacte tripartite a été signé à Berlin le 27 septembre 1940. Ce pacte militaire a établi l'alliance officielle entre l'Allemagne nazie, l'Italie fasciste et l'Empire du Japon, formant ainsi l'axe Rome-Berlin-Tokyo pendant la Seconde Guerre mondiale.",
+        "images"         : []
+    }
+]
