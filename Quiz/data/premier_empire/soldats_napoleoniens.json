@@ -1,0 +1,37 @@
+[   
+    {
+        "question"       : "Comment sont généralement appelés nommé les soldats napoléoniens ?",
+        "options"        : ["Les Soldats de la Grande Armée", "Les Grognards", "Les Conscrits impériaux", "Les Légionnaires napoléoniens"],
+        "reponseValide"  : "Les Soldats de la Grande Armée",
+        "reponsesValides": ["Soldats de la Grande Armée"],
+        "explication"    : "Les soldats napoléoniens sont généralement appelés \"soldats de la Grande Armée\".",
+        "images"         : []
+    },
+
+
+
+    {
+        "question"       : "Comment été nommer le sac du soldat napoléonien ?",
+        "options"        : ["Havresac", "Giberne", "Sac à dos impérial", "Barda"],
+        "reponseValide"  : "Havresac",
+        "reponsesValides": ["Havresac"],
+        "explication"    : "Le sac des soldats napoléoniens était appelé \"havresac\". Ce sac à dos réglementaire était un élément essentiel de l'équipement du soldat de la Grande Armée. Le havresac pouvait peser jusqu'à 30 kilos et contenait des effets personnels essentiels tels que des vêtements, une couverture, de la nourriture (pain, viande, vin et eau-de-vie) et du tabac. Il était généralement fait en peau de chèvre.",
+        "images"         : []
+    },
+    {
+        "question"       : "Quelle arme de corps à corps utilisait principalement les soldats d'infanterie de Napoléon ?",
+        "options"        : ["Sabre briquet", "Baïonnette", "Épée longue", "Hallebarde"],
+        "reponseValide"  : "Sabre briquet",
+        "reponsesValides": ["Sabre briquet"],
+        "explication"    : "L'arme de corps à corps principalement utilisée par les soldats d'infanterie de Napoléon était le sabre briquet. Ce sabre court, robuste et léger, était particulièrement adapté au combat rapproché. Il était souvent porté par les fantassins, en complément de leur fusil à silex équipé d'une baïonnette. La baïonnette, fixée au bout du fusil, était également largement utilisée pour le combat au corps à corps.",
+        "images"         : ["data/premier_empire/images/sabre_briquet.jpg"]
+    },
+    {
+        "question"       : "Quelle arme à distance était souvent portée par les soldats napoléoniens ?",
+        "options"        : ["Fusil modèle 1777", "Mousquet à mèche", "Pistolet à rouet", "Canon portatif"],
+        "reponseValide"  : "Fusil modèle 1777",
+        "reponsesValides": ["Fusil modèle 1777", "Fusil 1777", "Fusil d'infanterie"],
+        "explication"    : "L'arme à distance souvent portée par les soldats napoléoniens était le fusil modèle 1777, également connu sous le nom de \"fusil d'infanterie\". Ce fusil à silex à un coup, conçu par l'artilleur Gribeauval, était largement utilisé par la Grande Armée pendant les guerres napoléoniennes. Il mesurait environ 1,52 mètre (près de 2 mètres avec la baïonnette) et était capable de tirer jusqu'à 25 000 coups grâce à sa robustesse. Bien que précis jusqu'à environ 150 mètres, il devenait inefficace au-delà de 200-250 mètres.",
+        "images"         : []
+    }
+]

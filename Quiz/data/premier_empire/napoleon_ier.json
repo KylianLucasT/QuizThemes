@@ -1,0 +1,48 @@
+[
+    {
+        "question"       : "Quand et où Napoléon Bonaparte est-il né ?",
+        "options"        : ["15 août 1769", "14 juillet 1776", "18 mai 1770", "22 septembre 1768"],
+        "reponseValide"  : "15 août 1769",
+        "reponsesValides": ["15 août 1769", "15/08/1769"],
+        "explication"    : "Napoléon Bonaparte est né le 15 août 1769 à Ajaccio, en Corse, un an après que l'île soit devenue française.",
+        "images"         : []
+    },
+
+
+
+    {
+        "question"       : "Quel événement marque l'ascension politique de Napoléon en tant que Premier Consul ?",
+        "options"        : ["Le coup d'État du 18 Brumaire", "La bataille de Marengo", "La signature du Concordat", "La promulgation du Code civil"],
+        "reponseValide"  : "Le coup d'État du 18 Brumaire",
+        "reponsesValides": ["18 Brumaire"],
+        "explication"    : "Le coup d'État du 18 Brumaire, survenu le 9 novembre 1799, a permis à Napoléon de prendre le pouvoir et de devenir Premier Consul, amorçant son ascension vers l'Empire.",
+        "images"         : []
+    },
+    {
+        "question"       : "Quel code juridique a été promulgué par Napoléon en 1804 ?",
+        "options"        : ["Code pénal", "Code civil", "Code rural", "Code commercial"],
+        "reponseValide"  : "Code civil",
+        "reponsesValides": ["Code civil", "Code Napoléon"],
+        "explication"    : "Le Code civil, également connu sous le nom de Code Napoléon, a été promulgué par Napoléon Bonaparte le 21 mars 1804. Ce code juridique, officiellement appelé \"Code Civil des Français\", regroupe les lois relatives au droit civil français. Il s'agit d'un corpus de 2281 articles répartis en 36 titres, couvrant divers aspects du droit civil tels que le statut des personnes, celui des biens, et les relations entre personnes privées.",
+        "images"         : []
+    },
+
+
+
+    {
+        "question"       : "Quand Napoléon a-t-il été couronné empereur des Français ?",
+        "options"        : ["18 mai 1804", "2 décembre 1804", "21 octobre 1805", "27 février 1815"],
+        "reponseValide"  : "2 décembre 1804",
+        "reponsesValides": ["2 décembre 1804", "2/12/1804"],
+        "explication"    : "Napoléon Ier a été couronné empereur le 2 décembre 1804 lors d'une cérémonie à Notre-Dame de Paris. Il s'est couronné lui-même pour symboliser son indépendance vis-à-vis du pape.",
+        "images"         : ["data/premier_empire/images/sacre_napoleon_ier.jpg"]
+    },
+    {
+        "question"       : "Quelle bataille est considérée comme la plus grande victoire militaire de Napoléon ?",
+        "options"        : ["Waterloo", "Austerlitz", "Leipzig", "Borodino"],
+        "reponseValide"  : "Austerlitz",
+        "reponsesValides": ["Austerlitz", "bataille des Trois Empereurs"],
+        "explication"    : "La bataille d'Austerlitz, qui s'est déroulée le 2 décembre 1805, est considérée comme la plus grande victoire militaire de Napoléon Bonaparte. Cette bataille, également connue sous le nom de \"bataille des Trois Empereurs\", est restée dans les annales de la stratégie militaire et est encore étudiée dans de nombreuses écoles comme une référence dans l'art de la guerre. Napoléon y a vaincu les armées combinées de l'Empire russe et du Saint-Empire romain germanique en moins de neuf heures, malgré une infériorité numérique. Cette victoire éclatante est considérée comme le chef-d'œuvre tactique de Napoléon et a eu des conséquences importantes sur la géopolitique européenne de l'époque.",
+        "images"         : []
+    }
+]
